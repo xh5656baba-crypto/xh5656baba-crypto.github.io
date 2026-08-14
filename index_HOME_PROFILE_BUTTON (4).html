@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Labo de Hiroko BABA</title>
+<style>
+html,body{
+  margin:0;
+  background:#080211;
+}
+main{
+  max-width:1600px;
+  margin:auto;
+  position:relative;
+}
+img{
+  display:block;
+  width:100%;
+  height:auto;
+}
+
+/* ホーム画像はそのまま。見えるPROFILEボタンだけ追加 */
+.profile-button{
+  position:absolute;
+  left:50%;
+  top:46.5%;
+  transform:translate(-50%,-50%);
+  z-index:20;
+  padding:12px 30px;
+  border:1px solid #d8b65a;
+  border-radius:999px;
+  background:rgba(47,15,77,.88);
+  color:#f3d47d;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(13px,1.15vw,18px);
+  letter-spacing:.12em;
+  text-decoration:none;
+  box-shadow:0 0 14px rgba(182,105,255,.35);
+  backdrop-filter:blur(4px);
+}
+.profile-button:hover{
+  background:rgba(75,31,112,.96);
+  box-shadow:0 0 18px rgba(210,150,255,.5);
+}
+</style>
+</head>
+<body>
+<main>
+  <img src="assets/home-final.png" alt="Labo de Hiroko BABA">
+  <a class="profile-button" href="profile.html">PROFILE</a>
+</main>
+</body>
+</html>
